@@ -1,0 +1,28 @@
+<header>
+    <ul class="side-nav fixed white z-depth-3" id="nav-mobile" style="transform: translateX(0%);">
+        <li class="logo">
+            <a class="brand-logo" href="#" id="logo-container">
+                Proveedor 1
+            </a>
+        </li>
+        <li class="bold"><a href="#modal2" class="waves-effect waves-teal modal-trigger"><i class="material-icons">lock</i> Modificar Password</a></li>
+        <li class="divider"></li>
+        <li class="bold"><a class="waves-effect waves-teal"(click)="goOrders()"><i class="material-icons">insert_drive_file</i> Ordenes de Compra</a></li>
+        <li class="bold"><a class="waves-effect waves-teal" (click)="logOut()"><i class="material-icons">exit_to_app</i> Salir</a></li>
+    </ul>
+</header>
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <div class="container">
+            <h4>Modificar de Passwords</h4>
+            <label class="" for="pass1">Password</label>    
+            <input id="pass1" type="password" class="datepicker">
+            <label class="" for="pass2">Confirmar Password</label>      
+            <input id="pass2" type="password">
+            <a class="waves-effect waves-light btn blue darken-4">Modificar</a>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a class=" modal-action modal-close waves-effect waves-green btn-flat">Cancelar</a>
+    </div>
+</div>
